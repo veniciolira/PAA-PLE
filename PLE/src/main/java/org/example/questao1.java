@@ -29,17 +29,3 @@ public class questao1 {
 
         return -1;
     }
-
-    public static void main(String[] args) {
-        int[] listaOrdenada = {2, 4, 6, 8, 10};
-        int[] listaDesordenada = {5, 2, 8, 1, 10};
-
-        int valorBuscado = 8;
-
-        int indiceSequencial = buscaSequencial(listaDesordenada, valorBuscado);
-        System.out.println("Busca Sequencial: Indice do valor " + valorBuscado + " = " + indiceSequencial);
-
-        int indiceBinaria = buscaBinaria(listaOrdenada, valorBuscado);
-        System.out.println("Busca Binária: Indice do valor " + valorBuscado + " = " + indiceBinaria);
-    }
-}
